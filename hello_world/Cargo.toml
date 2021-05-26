@@ -1,0 +1,10 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Jose Duran <jose.daniel.duran.toro@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+modular-bitfield = "0.11.2"

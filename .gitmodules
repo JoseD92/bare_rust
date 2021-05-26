@@ -1,0 +1,3 @@
+[submodule "hello_world/bootloader"]
+	path = hello_world/bootloader
+	url = https://github.com/rust-osdev/bootloader.git

@@ -13,3 +13,9 @@ bootloader: bootloader/target/x86_64-bootloader/release/bootloader
 
 run: bootloader
 	qemu-system-x86_64 -drive format=raw,file=bootloader/target/x86_64-bootloader/release/bootloader.bin
+
+.PHONY: clean
+clean:
+	-rm -r target
+	-rm Cargo.lock
+	-rm -r bootloader/target
